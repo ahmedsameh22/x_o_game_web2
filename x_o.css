@@ -1,0 +1,117 @@
+#board1 {
+    width: 400px;
+    height: 400px;
+    margin: 0px 580px;
+}
+
+#board2 {
+    width: 500px;
+    height: 360px;
+    margin: 0px 540px;
+}
+
+#board2 .cell {
+    width: 120px;
+    height: 85px;
+    background-color: #66607d;
+    margin: 1px;
+    font-size: 130px;
+    color: black;
+    float: left;
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.cell {
+    width: 110px;
+    height: 110px;
+    background-color: #66607d;
+    margin: 1px;
+    font-size: 130px;
+    color: black;
+    float: left;
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+#form {
+    background-color: rgb(12, 5, 5);
+    border: 2px solid blueviolet;
+    margin: 0px;
+    color: rgb(156, 18, 133);
+}
+
+button {
+    background-color: rgb(4, 5, 5);
+    color: rgb(156, 18, 133);
+    padding: 5px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    font-family: serif;
+}
+
+#b {
+    display: inline;
+    padding-left: 400px;
+    color: darkred;
+}
+
+label {
+    padding-left: 130px;
+}
+
+body {
+    background-color: #070c2b;
+    color: rgb(156, 18, 133);
+    font-size: 25px;
+    color: rgb(180, 175, 166);
+}
+
+#myselect1 {
+    background-color: rgb(123, 172, 168);
+    color: rgb(39, 23, 184);
+    padding: 3px;
+    font-family: Impact;
+    font-size: 25;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(156, 18, 133);
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+#board3 {
+    width: 500px;
+    height: 400px;
+    margin: 0px 540px;
+}
+
+#board3 #grid div {
+    width: 90px;
+    height: 50px;
+    background-color: #66607d;
+    margin: 1px;
+    font-size: 100px;
+    color: black;
+    float: left;
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 60px;
+    cursor: pointer;
+}

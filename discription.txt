@@ -1,0 +1,17 @@
+team name:
+1- احمد سامح سيد
+2- احمد محمد محمد ربيع
+3-احمد سعد احمد       
+4- محمد عبدالصبور فؤاد عبدالله
+
+
+discripthion:
+Tic-Tac-Toe Game
+the user can play with his frind 
+the user can select the background colour from list of colours
+The user can select the colours of X and O.
+The  user to choose the size of the game, such as 3x3, 4x4, or 5x5. The game will be drawn with the new size. 
+after user select all that and play the (game will identify who is won and after that the game will restart ( 5 second to restart))
+
+ 
+

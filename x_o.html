@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <title>X_O GAME</title>
+    <link rel="stylesheet" href="x_o.css">
+
+
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Tic-Tac-Toe GAME</h1>
+
+    <form id="form">
+        <label>Select background color :  </label>
+        <select id="myselect1" onchange="change_color()">
+      <option value="">black blue</option>
+      <option value="#3c0606">wine</option>
+      <option value="black">black</option>
+      <option value="#121258">blue berry</option>
+      <option value="rgb(180, 175, 166)">white</option>
+      
+    </select>
+        <label>Select x color :  </label>
+        <input id="Xcolor" type="color">
+
+
+        <label>Select o color :  </label>
+        <input id="Ocolor" type="color">
+    </form>
+
+    <br>
+    <div id="b">
+        <button id="startgame" onclick="start_game3()">Start GAME 3_3</button>
+        <button id="startgame" onclick="start_game4()">Start GAME 4_4</button>
+        <button id="startgame" onclick="start_game5()">Start GAME 5_5</button>
+        <button id="startgame" onclick="restart()">RESTART</button>
+
+    </div>
+
+    <div id="board1" class="hidden">
+
+        <div class="cell" id="A1" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A2" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A3" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A4" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A5" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A6" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A7" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A8" onclick="insert3(this.id)"></div>
+        <div class="cell" id="A9" onclick="insert3(this.id)"></div>
+
+    </div>
+
+
+    <div id="board2" class="hidden">
+
+        <div class="cell" id="b1" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b2" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b3" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b4" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b5" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b6" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b7" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b8" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b9" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b10" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b11" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b12" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b13" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b14" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b15" onclick="insert4(this.id)"></div>
+        <div class="cell" id="b16" onclick="insert4(this.id)"></div>
+
+
+    </div>
+
+
+
+    <div id="board3" class="hidden">
+        <div id="grid">
+            <div class="cell" id="1" onclick="insert5(this.id)"></div>
+            <div class="cell" id="2" onclick="insert5(this.id)"></div>
+            <div class="cell" id="3" onclick="insert5(this.id)"></div>
+            <div class="cell" id="4" onclick="insert5(this.id)"></div>
+            <div class="cell" id="5" onclick="insert5(this.id)"></div>
+            <div class="cell" id="6" onclick="insert5(this.id)"></div>
+            <div class="cell" id="7" onclick="insert5(this.id)"></div>
+            <div class="cell" id="8" onclick="insert5(this.id)"></div>
+            <div class="cell" id="9" onclick="insert5(this.id)"></div>
+            <div class="cell" id="10" onclick="insert5(this.id)"></div>
+            <div class="cell" id="11" onclick="insert5(this.id)"></div>
+            <div class="cell" id="12" onclick="insert5(this.id)"></div>
+            <div class="cell" id="13" onclick="insert5(this.id)"></div>
+            <div class="cell" id="14" onclick="insert5(this.id)"></div>
+            <div class="cell" id="15" onclick="insert5(this.id)"></div>
+            <div class="cell" id="16" onclick="insert5(this.id)"></div>
+            <div class="cell" id="17" onclick="insert5(this.id)"></div>
+            <div class="cell" id="18" onclick="insert5(this.id)"></div>
+            <div class="cell" id="19" onclick="insert5(this.id)"></div>
+            <div class="cell" id="20" onclick="insert5(this.id)"></div>
+            <div class="cell" id="21" onclick="insert5(this.id)"></div>
+            <div class="cell" id="22" onclick="insert5(this.id)"></div>
+            <div class="cell" id="23" onclick="insert5(this.id)"></div>
+            <div class="cell" id="24" onclick="insert5(this.id)"></div>
+            <div class="cell" id="25" onclick="insert5(this.id)"></div>
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+
+    <p id="winner"> </p>
+
+
+
+</body>
+<script src="x_o.js"></script>
+
+</html>
